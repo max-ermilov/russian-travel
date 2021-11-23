@@ -1,0 +1,5 @@
+.content {
+  display: grid;
+  gap: 92px;
+  /* max-width: 1184px; */
+grid-template-columns: 100%;}

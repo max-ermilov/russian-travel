@@ -1,0 +1,10 @@
+.intro {
+  margin: 0;
+  width: 100%;
+  max-width: 984px;
+  justify-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
