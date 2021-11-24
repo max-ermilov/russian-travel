@@ -1,7 +1,22 @@
 .lead__image {
   margin: 0;
   object-fit: cover;
-  /* object-position: top; */
+  object-position: top;
   width: 100%;
   /* height: 100%; */
+  align-self: center;
+}
+
+@media screen and (max-width: 960px) {
+  .lead__image {
+    min-height: 480px;
+    min-width: 768px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .lead__image {
+    min-height: 200px;
+    min-width: 320px;
+  }
 }

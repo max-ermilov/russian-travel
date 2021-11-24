@@ -1,4 +1,19 @@
 .content {
+  margin: 0;
   display: grid;
   gap: 92px;
-grid-template-columns: 100%;}
+  grid-template-columns: 100%;
+  width: 100%;
+}
+
+@media screen and (max-width: 960px) {
+  .content {
+    gap: 88px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .content {
+    gap: 64px;
+  }
+}
