@@ -1,0 +1,9 @@
+.footer {
+  margin: 0;
+  padding-top: 92px;
+  padding-bottom: 24px;
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+  align-items: center;
+}
