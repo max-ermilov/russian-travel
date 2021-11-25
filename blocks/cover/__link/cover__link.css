@@ -14,7 +14,6 @@
   background-size: cover;
 }
 
-
 .cover__link::before {
   content: "";
   width: 100%;
