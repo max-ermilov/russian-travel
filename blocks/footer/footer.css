@@ -12,8 +12,8 @@
 @media screen and (max-width: 540px) {
   .footer {
     grid-auto-flow: row;
-    padding-top: 64px;
+    padding-top: 67px;
     padding-bottom: 24px;
-    gap: 48px;
+    gap: 46px;
   }
 }

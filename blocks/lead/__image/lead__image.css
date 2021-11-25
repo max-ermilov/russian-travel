@@ -6,6 +6,12 @@
   align-self: center;
 }
 
+@media screen and (max-width: 1120px) {
+  .lead__image {
+    max-height: 580px;
+  }
+}
+
 @media screen and (max-width: 960px) {
   .lead__image {
     min-height: 480px;

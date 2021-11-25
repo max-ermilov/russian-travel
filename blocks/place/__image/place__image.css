@@ -3,4 +3,6 @@
   object-fit: cover;
   object-position: top;
   width: 100%;
+  min-width: 320px;
+  justify-self: center;
 }

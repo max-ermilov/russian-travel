@@ -3,7 +3,7 @@
   display: grid;
   row-gap: 48px;
   column-gap: 40px;
-  grid-template-columns: minmax(47.5%, 288px) 1fr;
+  grid-template-columns: minmax(47%, 288px) 1fr;
 }
 
 @media screen and (max-width: 1120px) {
@@ -22,5 +22,7 @@
   .place {
     grid-template-columns: 100%;
     gap: 32px;
+    align-items: center;
+    justify-content: center;
   }
 }

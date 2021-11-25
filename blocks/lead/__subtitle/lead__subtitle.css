@@ -8,6 +8,12 @@
   max-width: 640px;
 }
 
+@media screen and (max-width: 1120px) {
+  .lead__subtitle {
+    margin: 32px 0 56px;
+  }
+}
+
 @media screen and (max-width: 540px) {
   .lead__subtitle {
     margin: 16px 0 40px;

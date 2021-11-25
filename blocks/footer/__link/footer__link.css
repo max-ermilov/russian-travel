@@ -10,7 +10,7 @@
 }
 
 @media screen and (max-width: 540px) {
-  .place__title {
+  .footer__link {
     font-size: 24px;
     line-height: 24px;
   }

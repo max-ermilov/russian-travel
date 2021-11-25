@@ -1,9 +1,12 @@
 .places {
   margin: 0;
-  width: 100%;
-  max-width: 984px;
-  display: grid;
-  gap: 80px;
-  grid-template-columns: 100%;
+  width: 85%;
   justify-self: center;
+  max-width: 984px;
+}
+
+@media screen and (max-width: 1120px) {
+  .places {
+    width: 100%;
+  }
 }
