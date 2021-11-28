@@ -12,15 +12,16 @@
     justify-items: start;
     width: 90.625%;
   }
+}
 
-  @media screen and (max-width: 960px) {
-    .intro-container {
-      width: 93.75%;
-    }
+@media screen and (max-width: 960px) {
+  .intro-container {
+    width: 93.75%;
   }
+}
 
-  @media screen and (max-width: 540px) {
-    .intro-container {
-      width: 90%;
-    }
+@media screen and (max-width: 540px) {
+  .intro-container {
+    width: 90%;
   }
+}
