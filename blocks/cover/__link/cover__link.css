@@ -2,7 +2,6 @@
   margin: 0 auto;
   position: relative;
   min-height: 740px;
-  /* min-width: 1024px; */
   max-width: 1184px;
   width: 92.5%;
   display: flex;
@@ -39,13 +38,11 @@
 @media screen and (max-width: 960px) {
   .cover__link {
     min-height: 480px;
-    /* min-width: 768px; */
   }
 }
 
 @media screen and (max-width: 540px) {
   .cover__link {
     min-height: 200px;
-    /* min-width: 320px; */
   }
 }

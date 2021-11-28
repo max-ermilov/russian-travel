@@ -1,12 +1,9 @@
 .intro-container {
   margin: 0;
   width: 100%;
-  /* width: 90%; */
   max-width: 984px;
   justify-self: center;
   display: flex;
-  /* flex-direction: column; */
-  /* justify-content: space-between; */
   justify-items: center;
 }
 

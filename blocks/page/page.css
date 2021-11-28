@@ -1,34 +1,15 @@
 .page {
   background-color: #2a2c2f;
   width: 100%;
-  /* max-width: 1184px; */
   margin: 0 auto;
   color: #ffffff;
   display: flex;
   flex-direction: column;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
-}
-
-@media screen and (max-width: 1120px) {
-  .page {
-    /* max-width: 928px; */
-  }
-}
-
-@media screen and (max-width: 960px) {
-  .page {
-    /* max-width: 720px; */
-  }
-}
-
-@media screen and (max-width: 540px) {
-  .page {
-    /* max-width: 288px; */
-  }
 }
