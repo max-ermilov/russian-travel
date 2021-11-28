@@ -1,0 +1,29 @@
+.intro-container {
+  margin: 0;
+  width: 100%;
+  /* width: 90%; */
+  max-width: 984px;
+  justify-self: center;
+  display: flex;
+  /* flex-direction: column; */
+  /* justify-content: space-between; */
+  justify-items: center;
+}
+
+@media screen and (max-width: 1120px) {
+  .intro-container {
+    justify-items: start;
+    width: 90.625%;
+  }
+
+  @media screen and (max-width: 960px) {
+    .intro-container {
+      width: 93.75%;
+    }
+  }
+
+  @media screen and (max-width: 540px) {
+    .intro-container {
+      width: 90%;
+    }
+  }

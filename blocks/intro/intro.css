@@ -1,8 +1,8 @@
 .intro {
   margin: 0;
-  width: 90%;
-  max-width: 984px;
-  justify-self: center;
+  width: 100%;
+  max-width: 690px;
+  /* justify-self: center; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -11,13 +11,12 @@
 
 @media screen and (max-width: 1120px) {
   .intro {
-    justify-self: flex-start;
+    /* justify-self: flex-start; */
   }
 }
 
 @media screen and (max-width: 960px) {
   .intro {
-    width: 100%;
     max-width: 720px;
   }
 }

@@ -1,13 +1,30 @@
 .header {
-  width: 100%;
+  width: 92.5%;
+  max-width: 1184px;
   margin: 0;
   padding-top: 28px;
   display: flex;
   justify-content: space-between;
+  justify-self: center;
+  align-self: center;
+}
+
+@media screen and (max-width: 1120px) {
+  .header {
+    width: 90.625%;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .header {
+    width: 93.75%;
+  }
 }
 
 @media screen and (max-width: 540px) {
   .header {
     padding-top: 16px;
+    width: 90%;
   }
 }
+

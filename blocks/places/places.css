@@ -7,6 +7,18 @@
 
 @media screen and (max-width: 1120px) {
   .places {
+    width: 90.625%;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .places {
+    width: 93.75%;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .places {
     width: 100%;
   }
 }

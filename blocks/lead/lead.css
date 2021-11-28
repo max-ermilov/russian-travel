@@ -4,4 +4,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-self: center;
 }
+
+@media screen and (max-width: 1120px) {
+  .lead {
+    width: 90.625%;
+  }
+
+@media screen and (max-width: 960px) {
+  .lead {
+      width: 100%;
+    }
+  }

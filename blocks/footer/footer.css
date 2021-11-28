@@ -2,17 +2,36 @@
   margin: 0;
   padding-top: 92px;
   padding-bottom: 24px;
-  display: grid;
-  grid-auto-flow: column;
+  /* display: grid; */
+  display: flex;
+  /* grid-auto-flow: column; */
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  align-self: center;
+  width: 92.5%;
+  max-width: 1184px;
+}
+
+@media screen and (max-width: 1120px) {
+  .footer {
+    width: 90.625%;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .footer {
+    width: 93.75%;
+  }
 }
 
 @media screen and (max-width: 540px) {
   .footer {
+    display: grid;
     grid-auto-flow: row;
     padding-top: 67px;
     padding-bottom: 24px;
     gap: 46px;
+    width: 90%;
   }
 }

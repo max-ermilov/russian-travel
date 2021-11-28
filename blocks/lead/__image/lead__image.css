@@ -1,27 +1,28 @@
 .lead__image {
   margin: 0;
-  object-fit: cover;
+  object-fit: contain;
   object-position: top;
   width: 100%;
+  /* min-height: 615px; */
   align-self: center;
 }
 
 @media screen and (max-width: 1120px) {
   .lead__image {
-    max-height: 580px;
+    /* min-height: 580px; */
   }
 }
 
 @media screen and (max-width: 960px) {
   .lead__image {
-    min-height: 480px;
-    min-width: 768px;
+    /* min-height: 480px; */
+    /* min-width: 768px; */
   }
 }
 
 @media screen and (max-width: 540px) {
   .lead__image {
-    min-height: 200px;
-    min-width: 320px;
+    /* min-height: 200px; */
+    /* min-width: 320px; */
   }
 }

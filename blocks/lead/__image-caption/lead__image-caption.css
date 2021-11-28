@@ -8,3 +8,15 @@
   text-transform: uppercase;
   justify-self: end;
 }
+
+@media screen and (max-width: 960px) {
+  .lead__image-caption {
+    padding-left: 3%;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .lead__image-caption {
+    padding-left: 5%;
+  }
+}
