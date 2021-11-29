@@ -3,7 +3,7 @@
   display: grid;
   row-gap: 48px;
   column-gap: 40px;
-  grid-template-columns: minmax(47%, 288px) 1fr;
+  grid-template-columns: minmax(47%, 220px) 1fr;
 }
 
 @media screen and (max-width: 1120px) {
@@ -15,6 +15,7 @@
 @media screen and (max-width: 960px) {
   .place {
     column-gap: 28px;
+    grid-template-columns: repeat(auto-fit, minmax(47%, 290px)) 49%;
   }
 }
 
