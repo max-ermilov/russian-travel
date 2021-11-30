@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
-  color: white;
+  /* color: white; */
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -13,5 +13,23 @@
   .footer__link {
     font-size: 24px;
     line-height: 24px;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .footer__link {
+    color: #2a2c2f;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .footer__link {
+    color: #ffffff;
+  }
+}
+
+@media (prefers-color-scheme: no-preference) {
+  .footer__link {
+    color: #ffffff;
   }
 }

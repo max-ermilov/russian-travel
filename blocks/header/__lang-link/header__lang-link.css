@@ -17,3 +17,21 @@
     padding-bottom: 7px;
   }
 }
+
+@media (prefers-color-scheme: light) {
+  .header__lang-link {
+    color: #2a2c2f;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .header__lang-link {
+    color: #ffffff;
+  }
+}
+
+@media (prefers-color-scheme: no-preference) {
+  .header__lang-link {
+    color: #ffffff;
+  }
+}

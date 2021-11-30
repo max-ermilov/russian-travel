@@ -8,3 +8,21 @@
   color: #aaaaaa;
   text-transform: uppercase;
 }
+
+@media (prefers-color-scheme: light) {
+  .place__url-addon {
+    color: #555555;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .place__url-addon {
+    color: #aaaaaa;
+  }
+}
+
+@media (prefers-color-scheme: no-preference) {
+  .place__url-addon {
+    color: #aaaaaa;
+  }
+}

@@ -12,3 +12,24 @@
     width: 142px;
   }
 }
+
+@media (prefers-color-scheme: light) {
+  .header__logo {
+    /* dark */
+    filter: invert(15%) sepia(11%) saturate(334%) hue-rotate(177deg) brightness(92%) contrast(90%);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .header__logo {
+    /* white */
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(283deg) brightness(104%) contrast(106%);
+  }
+}
+
+@media (prefers-color-scheme: no-preference) {
+  .header__logo {
+    /* white */
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(283deg) brightness(104%) contrast(106%);
+  }
+}

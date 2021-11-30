@@ -3,5 +3,23 @@
   font-weight: normal;
   font-size: 18px;
   line-height: 122%;
-  color: #ffffff;
+  /* color: #ffffff; */
+}
+
+@media (prefers-color-scheme: light) {
+  .place__link {
+    color: #2a2c2f;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .place__link {
+    color: #ffffff;
+  }
+}
+
+@media (prefers-color-scheme: no-preference) {
+  .place__link {
+    color: #ffffff;
+  }
 }
